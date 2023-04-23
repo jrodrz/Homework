@@ -1,0 +1,55 @@
+html {
+    background-color: antiquewhite;
+  }
+  * {
+    display: flex;
+    flex-direction: column;
+  } 
+  body {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  h1 {
+    font-size: 50px;
+  }
+  
+  img {
+    height: 100%;
+  }
+  
+  div {
+    border: 2px solid burlywood;
+    margin: 10px;
+  }
+  
+  #introPic {
+    float: left;
+  }
+  
+  #bio {
+    float: right;
+  }
+  #bio > li {
+    padding: 2px;
+    align-content: center;
+  }
+  
+  #pro {
+    width: auto;
+  }
+  Footer
+  © 2023 GitHub, Inc.
+  Footer navigation
+  Terms
+  Privacy
+  Security
+  Status
+  Docs
+  Contact GitHub
+  Pricing
+  API
+  Training
+  Blog
+  About
+  
