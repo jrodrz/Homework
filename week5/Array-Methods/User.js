@@ -234,5 +234,14 @@ const data =[
 let newArray = data.map(num => num["phone"]);
 console.log(newArray)
 
-let nextArray = data.map(num => num["email"] + ["website"]);
+let nextArray = []
+data.forEach(num => {
+  let tv = {
+    email:num.email,
+    website:num.website
+  }
+ nextArray.push(tv)
+});
 console.log(nextArray)
+
+
