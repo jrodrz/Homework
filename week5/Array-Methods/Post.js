@@ -301,9 +301,9 @@ let facts = [
   }
 ]
 
-let five = facts.filter(lm => lm.userId === 5)
-console.log(five)
+let three = facts.filter(lm => lm.userId === 3)
+console.log(three)
 
 let nextArray = facts.map(num => num["title"]);
 let moreArray = facts.map(num => num["body"]);
-console.log(nextArray, moreArray)
+console.log[nextArray, moreArray]

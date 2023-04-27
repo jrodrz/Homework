@@ -300,9 +300,10 @@
     "completed": true
   }
 ]
-let todo = Array.filter(lm => lm.userId === 3)
-console.log(todo)
+ let todo = Array.filter(lm => lm.userId === 3 )
+ console.log(todo)
 
-let incom = todo.map(completed => completed === false)
-console.log(incom.length)
+
+let newArray = todo.filter(ml => ml.completed === false)
+console.log(newArray.length)
 
