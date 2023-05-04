@@ -2,17 +2,16 @@
 header {
   color: red;
   font-size: 20px;
-  font-family: Roboto Regular 400;
-  background-image:doggy banner.png;
+  font-family: 'IBM Plex Sans', sans-serif;
+  /* background-image:doggy banner.png;
   background-size: cover;
   height: 100vh;
-  align-items: center;
+  align-items: center; */
 }
 
 nav {
   color: blue;
   font-size: 15px;
-  font-family: Roboto thin 100 Italic;
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -20,7 +19,6 @@ nav {
 footer {
   color: red;
   font-size: 10px;
-  font-family: Roboto thin 100;
   padding-left: 250px;
   flex-direction:row;
   flex-flow: flex-end;
@@ -29,14 +27,12 @@ footer {
 p {
   color:black;
   font-size: 30px;
-  font-family: Roboto Regular 400 Italics;
 }
 
 h3 {
   color:blue;
   font-size: 20px;
-  font-family: Roboto thin 300;
-  padding-left: 200px;
+  padding-left: 2font-family: 'Open Sans', sans-serif;00px;
 }
 
 * {
